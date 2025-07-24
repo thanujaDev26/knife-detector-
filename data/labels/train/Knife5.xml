@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>knife</folder>
+	<filename>Knife5.jpg</filename>
+	<path>/Users/thanujadev26/Desktop/knife-detector/data/images/knife/Knife5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

@@ -1,0 +1,34 @@
+Create Virtual Environment Manually
+python3 -m venv venv
+
+
+Activate the Venv
+source venv/bin/activate
+
+
+Install Relevant Packages
+pip3 install fastapi uvicorn opencv-python pillow python-multipart ultralytics
+
+
+Verify Test
+pip3 list
+
+
+Save Packages into requirements.txt
+fastapi
+uvicorn
+opencv-python
+pillow
+python-multipart
+ultralytics
+
+
+Add Knife images to data/images/knife
+Then Add Not knife images to data/images/negative
+
+To Label the knife (Draw a Box over a knife to train as a knife)
+brew install pyqt <--- Global Terminal
+pip install labelImg <--- Project Terminal (Virtual Env)
+
+Launch the Labeling Tool
+labelImg
