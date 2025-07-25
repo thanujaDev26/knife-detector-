@@ -1,7 +1,1 @@
-fastapi
-uvicorn
-opencv-python
-pillow
-python-multipart
-ultralytics
-labelImg
+label-studio
