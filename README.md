@@ -83,6 +83,6 @@ pip install -r requirements.txt
 python train.py --img 416 --batch 8 --epochs 30 --data knife.yaml --weights yolov5s.pt --name knife_detector
 
 
-
+uvicorn main:app --reload
 
 
