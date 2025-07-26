@@ -2,3 +2,6 @@ label-studio
 ultralytics
 fastapi
 uvicorn
+opencv-python-headless
+python-multipart
+Pillow
