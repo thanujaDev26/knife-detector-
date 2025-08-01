@@ -1,0 +1,6 @@
+path: d:\Yolo-intern-project\knife-detector-\backend\Research_notebooks\data
+train: train/images
+val: validation/images
+nc: 1
+names:
+- knife

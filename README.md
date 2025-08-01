@@ -63,12 +63,19 @@ Next run the label studio
 pip install -r requirements.txt
 
 **Run the Project** 
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 
 ```
 
 
 ---
+
+
+
+
+
+
+
 
 ## How to Train the Model
 ```bash
