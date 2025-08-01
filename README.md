@@ -38,11 +38,31 @@ This project is an AI-based system to detect **unwanted and insecure objects**sp
 git clone https://github.com/your-username/knife-detector.git
 cd knife-detector/backend
 
+**create a virtual environment*
+*windows
+python -m venv venv  
+*Linux/macOS
+python3 -m venv venv
+
+**Activate the virtual environment*
+*windows
+venv\Scripts\activate
+
+*Linux/macOS
+source venv/bin/activate
+
+
+**LABELING THE IMAGES**
+first install the label studio  
+    pip install label-studio
+
+Next run the label studio
+    label-studio start
 
 **Install Dependencies*
 pip install -r requirements.txt
 
-**Run the Project**
+**Run the Project** 
 uvicorn app.main:app --reload
 
 ```
@@ -63,6 +83,6 @@ pip install -r requirements.txt
 python train.py --img 416 --batch 8 --epochs 30 --data knife.yaml --weights yolov5s.pt --name knife_detector
 
 
-
+uvicorn main:app --reload
 
 

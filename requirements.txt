@@ -1,7 +1,7 @@
+label-studio
+ultralytics
 fastapi
 uvicorn
-opencv-python
-pillow
+opencv-python-headless
 python-multipart
-ultralytics
-labelImg
+Pillow
